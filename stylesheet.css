@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+body {
+  background-color: #f4f5fb;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  background-image: url("logo.png");
+  background-size: cover;
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+  color: #333333;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 24px;
+  color: #666666;
+}
+
+.button {
+  display: block;
+  width: 200px;
+  height: 50px;
+  margin: 20px auto;
+  background-color: #FF9900;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+.illustration {
+  width: 100%;
+  height: auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-bottom: 2px solid #FF9900;
+  fill: #FFF;
+filter: drop-shadow(0px 3.5193724632263184px 2.815497875213623px rgba(0, 0, 0, 0.07)) drop-shadow(0px 8.457541465759277px 6.766033172607422px rgba(0, 0, 0, 0.05)) drop-shadow(0px 15.924798965454102px 12.739839553833008px rgba(0, 0, 0, 0.04)) drop-shadow(0px 28.407121658325195px 22.725696563720703px rgba(0, 0, 0, 0.04)) drop-shadow(0px 53.13239669799805px 42.50592041015625px rgba(0, 0, 0, 0.03)) drop-shadow(0px 127.17911529541016px 101.74329376220703px rgba(0, 0, 0, 0.02));
+}
+
+.navbar-logo {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  background-image: url("logo.png");
+  background-size: cover;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  margin-right: 20px;
+}
+
+.navbar-menu li {
+  margin-left: 20px;
+}
+
+.navbar-menu a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #333333;
+}
+
+.navbar-menu a:hover {
+  color: #FF9900;
+}
+.na{
+  width: 109px;
+height: 197px;
+flex-shrink: 0;
+color: #0A0A0A;
+font-family: Inknut Antiqua;
+font-size: 55px;
+font-style: bold;
+font-weight: 700;
+line-height: normal;
+}
+.B{
+  color: #1A1A54;
+      font-family: Inter;
+      font-size: 102.082px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+}
+.welcome{
+  color: #000;
+  font-family: 'Playball', cursive;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.harat{
+  color: #1A1A54;
+      font-family: Inter;
+      font-size: 86px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+}
